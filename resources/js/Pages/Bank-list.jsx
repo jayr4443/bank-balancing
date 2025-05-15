@@ -11,7 +11,7 @@ import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { BankModal, DeleteBankModal } from "./Modal/BankModal";
-import BankTable from "./Datatable/BankTable";
+import BankTable from "./Datatable/BankTable.jsx";
 import bankService from "../Services/bank-service";
 
 export default function Banklist() {
