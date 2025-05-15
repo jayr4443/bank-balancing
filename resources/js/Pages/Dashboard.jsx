@@ -7,7 +7,7 @@ import {
     FaHistory,
 } from "react-icons/fa";
 import { useEffect, useState } from "react";
-import bankService from "../services/bank-service";
+import bankService from "@/Services/bank-service";
 import transactionService from "@/Services/transaction-service";
 import { MdDashboardCustomize } from "react-icons/md";
 
